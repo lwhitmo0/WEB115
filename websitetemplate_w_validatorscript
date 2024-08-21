@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Leona's WEB115 Template</title>
+    <link rel = "stylesheet" type = "text/css” href = "styles/default.css" />
+    <!--     
+        Structure of HTML5 semantic layout swiped from PHP Fiddle and modified
+        to include validing code and validation buttons and some other tweaks
+
+        +===================================+
+        |               header              |
+        +===================================+
+        |                 nav               |
+        +=====================+=============+
+        |                     |             |
+        |       section       |    aside    |
+        |
+        +=====================+=============+    
+        |          footer/tagline           |
+        |         validation buttons        |
+        +===================================+
+        
+        The code from Internet
+        
+        http://phpfiddle.org        
+    -->
+<script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+            <h1>Header</h1>
+            <h2>Subheader</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu Option 1</a></li>
+            <li><a href="#">Menu Option 2</a></li>
+        </ul>
+    </nav>
+    <footer> 
+       Bahhhh! 
+       <br/>Designed by &copy;LBW
+       <br/>
+       
+    </footer>
+</body>
+</html>
