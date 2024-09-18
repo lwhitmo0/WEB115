@@ -1,5 +1,71 @@
 JS code practice 
 
+
+
+
+
+
+//create js array
+let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+
+console.log(newYearsResolutions);
+// output = [ 'Keep a journal', 'Take a falconry class', 'Learn to juggle' ]
+
+
+
+//create function define variables and add if statement to check if two values are the same
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  // Add if statement here:
+  if (region === 'The Arctic'){
+    let lightWaves = 'Northern Lights'
+    console.log(lightWaves)
+  }
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+//output = Northern Lights Moonlight
+
+
+
+const logVisibleLightWaves = () =>{
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+console.log(logVisibleLightWaves());
+//output = Moonlight undefined
+
+
+
+//declare global variables
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+//declare function
+const callMyNightSky = () => {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
+//log value of function
+console.log(callMyNightSky())
+//output = Night Sky: The Moon, North Star, and The Milky Way
+
+
+//declare constant
+const city = ('New York City')
+//write function, declare variables in function, return statement in function
+const logCitySkyline = () => {
+  let city = 'New York City';
+  let skyscraper = 'Empire State Building';
+  return 'The stars over the ' + skyscraper + ' in ' + city;
+}
+//log value of function
+console.log(logCitySkyline());
+//output = The stars over the Empire State Building in New York City
+
+
+
 // input the Kelvin temperature value
 const kelvin = 0;
 // celsius is kelvin - 273 degrees
@@ -144,3 +210,26 @@ message = 'Change the physics!';
 
 drawName(message, letterColors);
 bounceBubbles();
+
+let weather = "spring";
+let clothingChoice = "";
+
+if (weather === "spring") {
+  clothingChoice = "Put on rain boots.";
+} else if (weather === "summer") {
+  clothingChoice = "Make sure to take your sunscreen.";
+} else if (weather === "fall") {
+  clothingChoice = "Wear a light jacket.";
+} else if (weather === 'winter') {
+  clothingChoice = "Wear a heavy coat.";
+} else {
+  console.log('Invalid weather type.');
+};
+console.log(clothingChoice);
+
+
+https://jsfiddle.net/lwhitmo0/urz6da74/11/#&togetherjs=gg5Nl50V4e
+
+https://jsfiddle.net/lwhitmo0/urz6da74/11/#&togetherjs=gg5Nl50V4e
+
+<script async src="//jsfiddle.net/lwhitmo0/urz6da74/11/embed/"></script>
